@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-dic-2016, 17:14:05
+    Author     : Zack
+*/
+* {
+    font: 15px Arial;
+}
+body {
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header {
+    background: radial-gradient(ellipse at center, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+    border-top: 3px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
+#logear{
+    text-align: center;
+    font: 14px Verdana grey;
+}
+#logear input{
+    border-radius: 20px 20px;
+    width: 20%;
+}
+
+#loge {
+    color: white;
+    background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+}
+
+
+button{
+    color: white;
+    border-radius: 20px 20px;
+    background-color: rgba(89,197,89,1);
+}
+
+#carro img{
+    float: right;
+    margin-right: 20%;
+}
+
+
+
+#pie{
+    text-align: center;
+    background: radial-gradient(ellipse at center, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 3px solid black;
+    width: 100%;
+    color: white;
+}
+
+#pie td{
+    padding: 5px;
+}
+
+#formularioReg {
+    background: linear-gradient(to right, rgba(240,255,199,1) 0%, rgba(197,243,155,1) 0%, rgba(197,243,155,1) 100%);
+    padding: 5%;
+    text-align: center;
+}
+
+fieldset {
+    margin-left: 30%;
+    background: rgba(98,182,218,1);
+    width: 35%;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#titulo {
+    font: 20px Arial;
+    color: white;
+    background: rgba(98,182,218,1);
+    width: 104%;
+    border: 2px solid black;
+}
+
+label {
+    font: 17px Arial;
+    color: white;
+    width: 25%;
+    float: left;
+}
+
+nav td {
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+	font: bold 14px verdana, sans-serif;
+}
+
+
+nav a{
+    color:white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+#buscador {
+    float:right;
+    background-color: green;
+}
+
+#registro {
+    border-radius: 20px 20px;
+    width: 20%;
+    float: right;
+}
+
+#sociales ul li{
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+#sociales img{
+    width: 30px;
+}
+
+#sociales img:hover{
+    width: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#productos td{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.menu{display:block;}
+ 
+.menu li{display: inline-block;
+position: relative;
+z-index:100;}
+ 
+.menu li a {font-weight:600;
+text-decoration:none;
+padding:11px;
+display:block;
+color:rgba(210,255,82,1);
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a{color:#ffffff;
+background:#9CA3DA;}
+
+.menu ul {display: none;
+margin: 0;
+padding: 0;
+width: 150px;
+position: absolute;
+
+left: 0px;
+background: white;
+}
+ 
+/* display second level menu on hover */
+.menu li:hover > ul{ display: block;}
+ 
+.menu ul li {display:block;
+float: left;
+background:none;
+margin:0;
+padding:0;
+}
+ 
+.menu ul li a {font-size:12px;
+font-weight:normal;
+display:block;
+color:black;
+border-left:3px solid #ffffff;
+background:white;}
+ 
+.menu ul li a:hover, .menu ul li:hover > a{
+background:#f0f0f0;
+border-left:3px solid #9CA3DA;
+color:black;
+}
+
+.menu ul ul {left: 149px;
+	top: 0px;
+}
+
+#categorias td{
+    padding: 2px;
+    text-align: center;
+    width: 200px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#log {
+    background:  linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    border-radius: 10px;
+    padding: 5px;
+    color: rgba(98,125,77,1);
+    border: 2px solid rgba(98,125,77,1);
+}

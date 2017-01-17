@@ -1,0 +1,11 @@
+es\albarregas\dao\IProductosDAO.class
+es\albarregas\controladores\Controlador.class
+es\albarregas\daofactory\MySQLDAOFactory.class
+es\albarregas\beans\Productos.class
+es\albarregas\dao\IUsuariosDAO.class
+es\albarregas\daofactory\DAOFactory.class
+es\albarregas\dao\ConnectionFactory.class
+es\albarregas\dao\ProductosDAO.class
+es\albarregas\dao\MysqlUsuariosDAO.class
+modelo\Util.class
+es\albarregas\beans\Usuarios.class
